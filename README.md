@@ -24,6 +24,8 @@ Besides, we have adapted many pretrained models to compore the performance. The 
  vilt_flickr(https://huggingface.co/dandelin/vilt-b32-finetuned-flickr30k),  BLIP2(https://github.com/salesforce/LAVIS/blob/3446bac20c5646d35ae383ebe6d13cec4f8b00cb/examples/blip2_feature_extraction.ipynb),  GPT2-NEO-1.3B(https://huggingface.co/EleutherAI/gpt-neo-1.3B),  GPT2-NEO-2.7B(https://huggingface.co/EleutherAI/gpt-neo-2.7B),  XLM-ROBERTA(https://huggingface.co/xlm-roberta-large), 
  KNN(https://www.kaggle.com/code/remekkinas/keras-tuner-knn-features-simplex-optimization/notebook),  HyFea(https://github.com/runnerxin/HyFea).
 
+**The detailed performance and data analysis, and some checkpoints will be updated soon.**
+**Note that the post-processing of the label (or dark magic) is also very useful, which will also be updated soon.**
 
 
 The quickest way to reproduce our model is to run the **./HeyFea-main/test_k_fold_model.py** using the checkpoints in **./HeyFea-main/save_model/**. We used the pesudo-labels technique to get these checkpoints.
