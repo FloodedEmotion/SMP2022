@@ -11,7 +11,7 @@ The third one is AutoGluon, which could be found in https://auto.gluon.ai/stable
 
 The fourth one is Tabular, which could be found in https://www.kaggle.com/code/optimo/tabnetbaseline. We pretrained the models with 50% of the training data, the rest were left for fintuning.
 
-The fifth is the roberta model using only the text data. The pretraining codes was in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-itpt/notebook?scriptVersionId=63560998, while the finetuning codes in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-fit/notebook, and the inferencing codes in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-infer/notebook. Besides, we also used the https://www.kaggle.com/code/andretugan/lightweight-roberta-solution-in-pytorch/notebook for regression.
+The fifth is the roberta model only using the text data. The pretraining codes was in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-itpt/notebook?scriptVersionId=63560998, while the finetuning codes in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-fit/notebook, and the inferencing codes in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-infer/notebook. Besides, we also used the https://www.kaggle.com/code/andretugan/lightweight-roberta-solution-in-pytorch/notebook for regression.
 
 The sixth one is multimodal toolkit, which could be found in https://github.com/georgian-io/Multimodal-Toolkit.
 
@@ -31,8 +31,8 @@ Besides, we have adapted many pretrained models to compore the performance. The 
 The quickest way to reproduce our model is to run the **./HeyFea-main/test_k_fold_model.py** using the checkpoints in **./HeyFea-main/save_model/**. We used the pesudo-labels technique to get these checkpoints.
 If you want to reproduce the our model from scratch, please follow the steps blow.
 
-Firstly, re-pretrain the roberta models using the script: wait to be updated.
+Firstly, re-pretrain the roberta models using the script: Waiting to be updated.
 
-Next, extract the features using pretrained models: Wait to be updated
+Next, extract the features using pretrained models: Waiting to be updated
 
-Finally, use all the features to do the prediction.
+Finally, use all the features to do the prediction: Waiting to be updates.
