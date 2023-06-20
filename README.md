@@ -11,6 +11,10 @@ The third one is AutoGluon, which could be found in https://auto.gluon.ai/stable
 
 The fourth one is Tabular, which could be found in https://www.kaggle.com/code/optimo/tabnetbaseline.
 
+The sixth one is multimodal toolkit, which could be found in https://github.com/georgian-io/Multimodal-Toolkit.
+
+The seventh one is lightGBM.
+
 The fifth is the roberta model using only the text data. The pretraining codes was in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-itpt/notebook?scriptVersionId=63560998, while the finetuning codes in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-fit/notebook, and the inferencing codes in https://www.kaggle.com/code/rhtsingh/commonlit-readability-prize-roberta-torch-infer/notebook. Besides, we also used the https://www.kaggle.com/code/andretugan/lightweight-roberta-solution-in-pytorch/notebook for regression.
 
 The quickest way to reproduce our model is to run the **./HeyFea-main/test_k_fold_model.py** using the checkpoints in **./HeyFea-main/save_model/**. We used the pesudo-labels technique to get these checkpoints.
